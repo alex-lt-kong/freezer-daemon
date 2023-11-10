@@ -1,0 +1,7 @@
+[
+{
+  "directory": "/home/mamsds/bin/freezer-daemon/build/src",
+  "command": "/usr/bin/cc  -I/home/mamsds/bin/freezer-daemon/src -std=gnu11 -o CMakeFiles/fd.dir/main.c.o -c /home/mamsds/bin/freezer-daemon/src/main.c",
+  "file": "/home/mamsds/bin/freezer-daemon/src/main.c"
+}
+]

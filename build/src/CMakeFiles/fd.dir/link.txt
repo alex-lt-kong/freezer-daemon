@@ -1,0 +1,1 @@
+/usr/bin/clang -fsanitize=address CMakeFiles/fd.dir/main.c.o CMakeFiles/fd.dir/event_loops.c.o CMakeFiles/fd.dir/global_vars.c.o CMakeFiles/fd.dir/utils.c.o -o fd  -liotctrl -lmodbus -lgpiod -lcurl 

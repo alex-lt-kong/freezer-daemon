@@ -1,0 +1,22 @@
+[
+{
+  "directory": "/home/mamsds/bin/freezer-daemon/build/src",
+  "command": "/usr/bin/clang -DSANITIZER_NAME=\\\"AddressSanitizer\\\" -I/home/mamsds/bin/freezer-daemon/src -Wall -Wextra -pedantic -O2 -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -fsanitize=address -fno-omit-frame-pointer -g -std=gnu11 -o CMakeFiles/fd.dir/main.c.o -c /home/mamsds/bin/freezer-daemon/src/main.c",
+  "file": "/home/mamsds/bin/freezer-daemon/src/main.c"
+},
+{
+  "directory": "/home/mamsds/bin/freezer-daemon/build/src",
+  "command": "/usr/bin/clang -DSANITIZER_NAME=\\\"AddressSanitizer\\\" -I/home/mamsds/bin/freezer-daemon/src -Wall -Wextra -pedantic -O2 -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -fsanitize=address -fno-omit-frame-pointer -g -std=gnu11 -o CMakeFiles/fd.dir/event_loops.c.o -c /home/mamsds/bin/freezer-daemon/src/event_loops.c",
+  "file": "/home/mamsds/bin/freezer-daemon/src/event_loops.c"
+},
+{
+  "directory": "/home/mamsds/bin/freezer-daemon/build/src",
+  "command": "/usr/bin/clang -DSANITIZER_NAME=\\\"AddressSanitizer\\\" -I/home/mamsds/bin/freezer-daemon/src -Wall -Wextra -pedantic -O2 -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -fsanitize=address -fno-omit-frame-pointer -g -std=gnu11 -o CMakeFiles/fd.dir/global_vars.c.o -c /home/mamsds/bin/freezer-daemon/src/global_vars.c",
+  "file": "/home/mamsds/bin/freezer-daemon/src/global_vars.c"
+},
+{
+  "directory": "/home/mamsds/bin/freezer-daemon/build/src",
+  "command": "/usr/bin/clang -DSANITIZER_NAME=\\\"AddressSanitizer\\\" -I/home/mamsds/bin/freezer-daemon/src -Wall -Wextra -pedantic -O2 -fdata-sections -ffunction-sections -fno-common -Wl,--gc-sections -D_GLIBCXX_ASSERTIONS -fasynchronous-unwind-tables -fexceptions -fstack-clash-protection -fstack-protector-strong -grecord-gcc-switches -pipe -Werror=format-security -Wno-format-nonliteral -fPIE -Wl,-z,defs -Wl,-z,now -Wl,-z,relro -fsanitize=address -fno-omit-frame-pointer -g -std=gnu11 -o CMakeFiles/fd.dir/utils.c.o -c /home/mamsds/bin/freezer-daemon/src/utils.c",
+  "file": "/home/mamsds/bin/freezer-daemon/src/utils.c"
+}
+]

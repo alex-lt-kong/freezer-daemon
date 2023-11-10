@@ -1,0 +1,5 @@
+/home/mamsds/bin/freezer-daemon/build/CMakeFiles/edit_cache.dir
+/home/mamsds/bin/freezer-daemon/build/CMakeFiles/rebuild_cache.dir
+/home/mamsds/bin/freezer-daemon/build/src/CMakeFiles/fd.dir
+/home/mamsds/bin/freezer-daemon/build/src/CMakeFiles/edit_cache.dir
+/home/mamsds/bin/freezer-daemon/build/src/CMakeFiles/rebuild_cache.dir
