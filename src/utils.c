@@ -64,6 +64,25 @@ void write_temp_to_csv(float val) {
   fclose(file);
 }
 
+void write_interruption_to_csv() {
+  time_t rawTime;
+  struct tm *timeInfo;
+  char buffer[] = "1970-01-01T00:00:00";
+
+  time(&rawTime);
+  timeInfo = localtime(&rawTime);
+  strftime(buffer, sizeof(buffer), "%Y-%m-%dT%H:%M:%S", timeInfo);
+
+  FILE *file;
+  file = fopen(interruption_csv_file, "a");
+  if (file == NULL) {
+    syslog(LOG_INFO, "Failed to open the file [%s]", interruption_csv_file);
+    return;
+  }
+  fprintf(file, "%s\n", buffer);
+  fclose(file);
+}
+
 void signal_handler(int signum) {
   ev_flag = 1;
   char msg[] = "Signal [  ] caught\n";

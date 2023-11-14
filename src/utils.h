@@ -9,4 +9,6 @@ void write_temp_to_csv(float val);
 
 int install_signal_handler();
 
+void write_interruption_to_csv();
+
 #endif // FD_UTILS_H

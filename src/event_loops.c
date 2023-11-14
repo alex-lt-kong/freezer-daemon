@@ -63,7 +63,8 @@ void *ev_test_internet(void *_) {
   const size_t length = sizeof(sequence) / sizeof(sequence[0]);
   char sites_to_test[][PATH_MAX] = {"https://www.example.com",
                                     "https://www.sogou.com",
-                                    "https://www.baidu.com"};
+                                    "https://www.baidu.com",
+                                    "https://www.zhihu.com"};
   size_t delay_sec = 60;
   CURL *curl = curl_easy_init();
   if (!curl) {
@@ -76,8 +77,7 @@ void *ev_test_internet(void *_) {
          i < sizeof(sites_to_test) / sizeof(sites_to_test[0]) && !ev_flag;
          ++i) {
       curl_easy_setopt(curl, CURLOPT_URL, sites_to_test[i]);
-      curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT_MS,
-                       10000); // Set connection timeout to 3 seconds
+      curl_easy_setopt(curl, CURLOPT_CONNECTTIMEOUT_MS, 10000); 
       curl_easy_setopt(curl, CURLOPT_NOBODY, 1); // Send a HEAD request
 
       CURLcode res = curl_easy_perform(curl);
@@ -93,6 +93,7 @@ void *ev_test_internet(void *_) {
       if (iotctrl_make_a_buzz(gpio_path, 4, sequence, length) != 0) {
         syslog(LOG_ERR, "iotctrl_make_a_buzz() failed");
       }
+      write_interruption_to_csv();
     }
   }
   curl_easy_cleanup(curl);
