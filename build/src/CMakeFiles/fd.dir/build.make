@@ -73,57 +73,57 @@ src/CMakeFiles/fd.dir/main.c.o: src/CMakeFiles/fd.dir/flags.make
 src/CMakeFiles/fd.dir/main.c.o: /home/mamsds/bin/freezer-daemon/src/main.c
 src/CMakeFiles/fd.dir/main.c.o: src/CMakeFiles/fd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamsds/bin/freezer-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object src/CMakeFiles/fd.dir/main.c.o"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/main.c.o -MF CMakeFiles/fd.dir/main.c.o.d -o CMakeFiles/fd.dir/main.c.o -c /home/mamsds/bin/freezer-daemon/src/main.c
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/main.c.o -MF CMakeFiles/fd.dir/main.c.o.d -o CMakeFiles/fd.dir/main.c.o -c /home/mamsds/bin/freezer-daemon/src/main.c
 
 src/CMakeFiles/fd.dir/main.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fd.dir/main.c.i"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/main.c > CMakeFiles/fd.dir/main.c.i
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/main.c > CMakeFiles/fd.dir/main.c.i
 
 src/CMakeFiles/fd.dir/main.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fd.dir/main.c.s"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/main.c -o CMakeFiles/fd.dir/main.c.s
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/main.c -o CMakeFiles/fd.dir/main.c.s
 
 src/CMakeFiles/fd.dir/event_loops.c.o: src/CMakeFiles/fd.dir/flags.make
 src/CMakeFiles/fd.dir/event_loops.c.o: /home/mamsds/bin/freezer-daemon/src/event_loops.c
 src/CMakeFiles/fd.dir/event_loops.c.o: src/CMakeFiles/fd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamsds/bin/freezer-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object src/CMakeFiles/fd.dir/event_loops.c.o"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/event_loops.c.o -MF CMakeFiles/fd.dir/event_loops.c.o.d -o CMakeFiles/fd.dir/event_loops.c.o -c /home/mamsds/bin/freezer-daemon/src/event_loops.c
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/event_loops.c.o -MF CMakeFiles/fd.dir/event_loops.c.o.d -o CMakeFiles/fd.dir/event_loops.c.o -c /home/mamsds/bin/freezer-daemon/src/event_loops.c
 
 src/CMakeFiles/fd.dir/event_loops.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fd.dir/event_loops.c.i"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/event_loops.c > CMakeFiles/fd.dir/event_loops.c.i
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/event_loops.c > CMakeFiles/fd.dir/event_loops.c.i
 
 src/CMakeFiles/fd.dir/event_loops.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fd.dir/event_loops.c.s"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/event_loops.c -o CMakeFiles/fd.dir/event_loops.c.s
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/event_loops.c -o CMakeFiles/fd.dir/event_loops.c.s
 
 src/CMakeFiles/fd.dir/global_vars.c.o: src/CMakeFiles/fd.dir/flags.make
 src/CMakeFiles/fd.dir/global_vars.c.o: /home/mamsds/bin/freezer-daemon/src/global_vars.c
 src/CMakeFiles/fd.dir/global_vars.c.o: src/CMakeFiles/fd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamsds/bin/freezer-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object src/CMakeFiles/fd.dir/global_vars.c.o"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/global_vars.c.o -MF CMakeFiles/fd.dir/global_vars.c.o.d -o CMakeFiles/fd.dir/global_vars.c.o -c /home/mamsds/bin/freezer-daemon/src/global_vars.c
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/global_vars.c.o -MF CMakeFiles/fd.dir/global_vars.c.o.d -o CMakeFiles/fd.dir/global_vars.c.o -c /home/mamsds/bin/freezer-daemon/src/global_vars.c
 
 src/CMakeFiles/fd.dir/global_vars.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fd.dir/global_vars.c.i"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/global_vars.c > CMakeFiles/fd.dir/global_vars.c.i
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/global_vars.c > CMakeFiles/fd.dir/global_vars.c.i
 
 src/CMakeFiles/fd.dir/global_vars.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fd.dir/global_vars.c.s"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/global_vars.c -o CMakeFiles/fd.dir/global_vars.c.s
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/global_vars.c -o CMakeFiles/fd.dir/global_vars.c.s
 
 src/CMakeFiles/fd.dir/utils.c.o: src/CMakeFiles/fd.dir/flags.make
 src/CMakeFiles/fd.dir/utils.c.o: /home/mamsds/bin/freezer-daemon/src/utils.c
 src/CMakeFiles/fd.dir/utils.c.o: src/CMakeFiles/fd.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/mamsds/bin/freezer-daemon/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object src/CMakeFiles/fd.dir/utils.c.o"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/utils.c.o -MF CMakeFiles/fd.dir/utils.c.o.d -o CMakeFiles/fd.dir/utils.c.o -c /home/mamsds/bin/freezer-daemon/src/utils.c
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT src/CMakeFiles/fd.dir/utils.c.o -MF CMakeFiles/fd.dir/utils.c.o.d -o CMakeFiles/fd.dir/utils.c.o -c /home/mamsds/bin/freezer-daemon/src/utils.c
 
 src/CMakeFiles/fd.dir/utils.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/fd.dir/utils.c.i"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/utils.c > CMakeFiles/fd.dir/utils.c.i
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/mamsds/bin/freezer-daemon/src/utils.c > CMakeFiles/fd.dir/utils.c.i
 
 src/CMakeFiles/fd.dir/utils.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/fd.dir/utils.c.s"
-	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/clang $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/utils.c -o CMakeFiles/fd.dir/utils.c.s
+	cd /home/mamsds/bin/freezer-daemon/build/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/mamsds/bin/freezer-daemon/src/utils.c -o CMakeFiles/fd.dir/utils.c.s
 
 # Object files for target fd
 fd_OBJECTS = \
